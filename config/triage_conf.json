@@ -2,6 +2,7 @@
   "features": {
     "data_name": [
       "age",
+      "cc_breathingdifficulty",
       "gender",
       "triage_vital_hr",
       "triage_vital_sbp",
@@ -21,6 +22,7 @@
       "sbp_max"
     ],
     "data_types": [
+      "int",
       "int",
       "string",
       "float",

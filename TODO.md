@@ -8,6 +8,7 @@ datasets/5v_cleandf.RData
 
 - age
 - gender
+- cc_breathingdifficulty
 - triage_vital_hr
 - triage_vital_sbp
 - triage_vital_rr
