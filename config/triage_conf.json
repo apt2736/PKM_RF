@@ -4,26 +4,11 @@
       "age",
       "gender",
       "triage_vital_hr",
-      "triage_vital_rr",
-      "triage_vital_sbp",
       "triage_vital_o2",
       "pulse_last",
-      "resp_last",
-      "sbp_last",
       "spo2_last"
     ],
-    "data_types": [
-      "int",
-      "string",
-      "float",
-      "float",
-      "float",
-      "float",
-      "float",
-      "float",
-      "float",
-      "float"
-    ],
+    "data_types": ["int", "string", "float", "float", "float", "float"],
     "data_string_list": {
       "gender": ["Male", "Female"]
     }
