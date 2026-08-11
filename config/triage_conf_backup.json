@@ -1,0 +1,29 @@
+{
+  "features": {
+    "data_name": [
+      "age",
+      "cc_breathingdifficulty",
+      "gender",
+      "triage_vital_hr",
+      "triage_vital_sbp",
+      "triage_vital_rr",
+      "triage_vital_o2"
+    ],
+    "data_types": ["int", "int", "string", "float", "float", "float", "float"],
+    "data_string_list": {
+      "gender": ["Male", "Female"]
+    }
+  },
+  "classes": {
+    "target_col": "esi",
+    "outputs": [1.0, 2.0, 3.0, 4.0, 5.0]
+  },
+  "path": {
+    "data_source": "datasets/5v_cleandf.RData"
+  },
+  "training": {
+    "test_size": 0.15,
+    "val_size": 0.15,
+    "random_state": 42
+  }
+}
