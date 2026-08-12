@@ -7,9 +7,41 @@
       "triage_vital_hr",
       "triage_vital_sbp",
       "triage_vital_rr",
-      "triage_vital_o2"
+      "triage_vital_o2",
+      "pulse_last",
+      "resp_last",
+      "spo2_last",
+      "sbp_last",
+      "pulse_min",
+      "resp_min",
+      "spo2_min",
+      "sbp_min",
+      "pulse_max",
+      "resp_max",
+      "spo2_max",
+      "sbp_max"
     ],
-    "data_types": ["int", "int", "string", "float", "float", "float", "float"],
+    "data_types": [
+      "int",
+      "int",
+      "string",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float"
+    ],
     "data_string_list": {
       "gender": ["Male", "Female"]
     }
