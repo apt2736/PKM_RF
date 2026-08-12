@@ -32,7 +32,7 @@ esi
 
 ## Feature Engineering
 
-<!-- - is_dyspnea_total: if triage_vital_o2 < 90
+- is_dyspnea_total: if triage_vital_o2 < 90
 - is_dyspnea_moderate: if triage_vital_o2 > 90 & triage_vital_o2 < 94
 - is_bradypnea: if triage_vital_rr < 10
 - is_tachypnea: if triage_vital_rr > 30
@@ -41,8 +41,7 @@ esi
 - is_bradycardia_total: if triage_vital_hr < 40
 - is_bradycardia_moderate: if triage_vital_hr > 40 & triage_vital_hr < 60
 - is_tachycardia_total: if triage_vital_hr > 150
-- is_tachycardia_moderate: if triage_vital_hr > 100 & triage_vital_hr < 150 -->
-
+- is_tachycardia_moderate: if triage_vital_hr > 100 & triage_vital_hr < 150
 - hr_mean_to_last: triage_vital_hr - pulse_last
 - sbp_mean_to_last: triage_vital_sbp - sbp_last
 - spo2_mean_to_last: triage_vital_o2 - spo2_last
