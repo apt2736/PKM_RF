@@ -57,5 +57,9 @@
     "test_size": 0.01,
     "val_size": 0.01,
     "random_state": 42
+  },
+  "resampling": {
+    "layer1_downsample_ratio": 3.0,
+    "layer2_esi5_upsample_ratio": 0.5
   }
 }
