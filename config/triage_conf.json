@@ -59,7 +59,12 @@
     "random_state": 42
   },
   "resampling": {
-    "layer1_downsample_ratio": 10.0,
-    "layer2_esi5_upsample_ratio": 0.5
+    "layer1_downsample_ratio": 2.0,
+    "layer2_class_ratios": {
+      "esi2": 1.0,
+      "esi3": 1.0,
+      "esi4": 1.0,
+      "esi5": 1.0
+    }
   }
 }
