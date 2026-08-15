@@ -59,6 +59,16 @@ esi
 - spo2_last_to_max: spo2_last - spo2_max
 - sbp_last_to_max: sbp_last - sbp_max
 
+- shock_index: triage_vital_hr / triage_vital_sbp
+- hr_mid_to_triage: triage_vital_hr - (pulse_max - pulse_min)
+- sbp_mid_to_triage: triage_vital_sbp - (sbp_max - sbp_min)
+- rr_mid_to_triage: triage_vital_rr - (resp_max - resp_min)
+- spo2_mid_to_triage: triage_vital_o2 - (spo2_max - spo2_min)
+- rox_index: triage_vital_o2 / triage_vital_rr
+- spo2_drop_ratio: (spo2_max - spo2_min) / spo2_max
+- hr_instability_ratio: (pulse_max - pulse_min) / (triage_vital_hr + 1)
+- bif: (triage_vital_rr / triage_vital_o2) \* 100
+
 ## Structure
 
 - Layer 1: XGBoost to handle intial class probabilities
