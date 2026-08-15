@@ -55,7 +55,7 @@ esi
 - spo2_last_to_min: spo2_last - spo2_min
 - sbp_last_to_min: sbp_last - sbp_min
 - hr_last_to_max: pulse_last - pulse_max
-- sbp_last_to_max: resp_last - resp_max
+- rr_last_to_max: resp_last - resp_max
 - spo2_last_to_max: spo2_last - spo2_max
 - sbp_last_to_max: sbp_last - sbp_max
 
