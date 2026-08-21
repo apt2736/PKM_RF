@@ -1,0 +1,4 @@
+Acuity_Class,Sensitivity_Recall,Specificity,Balanced_Accuracy,ROC_AUC
+ESI 3-5 (Non-Critical),0.6512,0.5911,0.6212,0.6692
+ESI 1-2 (Critical),0.5911,0.6512,0.6212,0.6692
+Macro_Average,0.6212,0.6212,0.6212,0.6692
