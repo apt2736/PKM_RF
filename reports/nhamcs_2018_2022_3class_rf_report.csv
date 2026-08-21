@@ -1,0 +1,5 @@
+Acuity_Class,Sensitivity_Recall,Specificity,Balanced_Accuracy,ROC_AUC
+RED,0.4128,0.8205,0.6167,0.6708
+YELLOW,0.3741,0.7194,0.5467,0.5913
+GREEN,0.6142,0.6239,0.6191,0.6727
+Macro_Average,0.467,0.7213,0.5942,0.6449
