@@ -65,3 +65,47 @@ esi
 ## Scoring
 
 Uses Accuracy, Precision, Recall, PR-AUC, ROC-AUC
+
+## Dataset from NHAMCS ED 2022
+
+1. Features:
+   [SEX] SEX
+   1 = Female
+   2 = Male
+   [AGE] PATIENT AGE (IN YEARS; DERIVED FROM DATE OF VISIT
+   AND DATE OF BIRTH) Note: Outlier values were top coded in
+   accordance with NCHS confidentiality requirements.
+   0 = Under 1 year
+   1 - 93
+   94 = 94 years or older
+   [PULSE] HEART RATE
+   -9 = Blank
+   0-240 (reported range)
+   998= Dopp, Doppler
+   [RESPR] RESPIRATORY RATE
+   -9 = Blank
+   0-150 (reported range)
+   [RESPR] RESPIRATORY RATE
+   -9 = Blank
+   0-150 (reported range
+   [BPDIAS] DIASTOLIC BLOOD PRESSURE
+   -9 = Blank
+   0, 22-190 (reported range)
+   998 = P, Palp, Dop, Doppler
+   [POPCT] PULSE OXIMETRY (percent)
+   -9 = Blank
+   0-100 (reported range)
+
+2. class
+   [IMMEDR] IMMEDIACY WITH WHICH PATIENT SHOULD BE SEEN
+   (Based on PRF Item Triage Level)
+   -9 = Blank
+   -8 = Unknown
+   0 = ‘No triage’ reported for this visit but ESA does conduct nursing
+   triage
+   1 = Immediate
+   2 = Emergent
+   3 = Urgent
+   4 = Semi-urgent
+   5 = Nonurgent
+   7 = Visit occurred in ESA that does not conduct nursing triage
