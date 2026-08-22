@@ -1,0 +1,2 @@
+Model,Accuracy,Balanced_Accuracy,RED_Sensitivity (ESI 1 Recall),YELLOW_Specificity (ESI 2-3 Recall),RED_Precision,RED_F1,ROC_AUC,PR_AUC
+Random Forest (Inverted Class Weights),0.951,0.5669,0.1654,0.9684,0.104,0.1277,0.6037,0.051
