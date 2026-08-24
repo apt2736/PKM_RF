@@ -5,7 +5,7 @@
 deploy/
 plots/*.png
 
-# 5v_raw.csv is 1.35 GB of patient-level ED records; 5v_cleaned.csv is derived from
-# it. Both are reproducible from datasets/5v_cleandf.RData, and GitHub rejects
-# blobs over 100 MB anyway.
+# Ignore large CSV datasets (>100MB exceeds GitHub push limit)
 datasets/*.csv
+datasets/5v_raw.csv
+datasets/nhamcs_2018_2022.csv
