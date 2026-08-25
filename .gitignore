@@ -6,5 +6,7 @@ deploy/
 plots/*.png
 
 # Ignore large CSV datasets (>100MB exceeds GitHub push limit)
-datasets/*.csv
 datasets/5v_raw.csv
+datasets/ed2022.csv
+datasets/nhamcs_2018_2022.csv
+datasets/5v_cleaned.csv
