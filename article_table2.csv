@@ -1,0 +1,16 @@
+skenario,sens_merah,bal_acc,under_triage,over_triage,ukuran_kb,waktu_ms,delta_sens_merah,delta_bal_acc,kategori_berubah_pct,sens_merah_p2_5,sens_merah_p97_5,bal_acc_p2_5,bal_acc_p97_5,kategori_berubah_p2_5,kategori_berubah_p97_5
+A1 Lembar triase IGD RS Siti Khodijah (RR + nadi),0.5468,0.7587,0.4532,0.8443,,,,,,,,,,,
+"A2 NEWS2 termodifikasi (RR, SpO2, SBP, HR)",0.8058,0.7871,0.1942,0.72,,,,,,,,,,,
+B Decision Tree,0.9137,0.8889,0.0863,0.7505,249.1,2.4e-05,,,,,,,,,
+B Random Forest,0.9209,0.8989,0.0791,0.2195,3454.9,0.005316,,,,,,,,,
+B SVC (RBF),0.9281,0.903,0.0719,0.0851,3332.1,0.236723,,,,,,,,,
+B LightGBM (model utama),0.9353,0.903,0.0647,0.3333,1034.6,0.011956,,,,,,,,,
+C LightGBM lengkap (6 fitur),0.9353,0.903,0.0647,0.3333,,,,,,,,,,,
+C tanpa SBP,0.9065,0.8863,0.0935,0.3824,,,-0.0288,-0.0167,,,,,,,
+C tanpa RR,0.9137,0.8807,0.0863,0.4858,,,-0.0216,-0.0223,,,,,,,
+C tanpa SpO2,0.9424,0.8847,0.0576,0.3671,,,0.0072,-0.0183,,,,,,,
+D0 tanpa derau (model lengkap),0.9353,0.903,0.0647,0.3333,,,,,0.0,,,,,,
+"D1 derau HR N(0,16; 1,65) + SpO2 N(0,72; 1,02)",0.9327,0.897,0.0673,0.3372,,,,,2.56,0.9209,0.9424,0.8944,0.9002,2.34,2.81
+"D2a derau SBP N(+5; 8) (ISO 81060-2, bias +5)",0.928,0.9005,0.072,0.3545,,,,,2.66,0.9137,0.939,0.8978,0.9031,2.46,2.87
+"D2b derau SBP N(-5; 8) (ISO 81060-2, bias -5)",0.9181,0.897,0.0819,0.3518,,,,,1.69,0.8993,0.9353,0.8941,0.9003,1.53,1.84
+D3 RR hilang (di-impute MICE),0.8345,0.8656,0.1655,0.3483,,,,,5.26,,,,,,
